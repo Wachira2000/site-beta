@@ -5,6 +5,7 @@ import { client } from '@/sanity/lib/client'
 import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 
 export const dynamic = "force-dynamic"
@@ -31,6 +32,7 @@ export default async function Home() {
       <Skills />
       <Testimonial />
       <Contact />
+      <Footer />
     </>
   );
 }
